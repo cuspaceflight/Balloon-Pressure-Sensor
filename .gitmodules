@@ -1,0 +1,9 @@
+[submodule "agg-kicad"]
+	path = agg-kicad
+	url = ../../adamgreig/agg-kicad.git
+[submodule "fw/ChibiOS"]
+	path = fw/ChibiOS
+	url = ../../ChibiOS/ChibiOS.git
+[submodule "fw/gen-board.h"]
+	path = fw/gen-board.h
+	url = ../../HarkonenBade/gen-board.h.git

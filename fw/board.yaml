@@ -1,0 +1,15 @@
+name: Balloon Pressure Sensor
+lsefreq: 0
+hsefreq: 0
+voltage: 3.3
+mcutype: STM32F042x6
+other:
+    STM32_HSE_BYPASS: ~
+    STM32_LSEDRV: (3U << 3U) 
+default: input, pushpull, starthigh, pullup, highspeed
+pins:
+    usb_dm: pa11, af0
+    usb_dp: pa12, af0
+    swdio : pa13, af0
+    swclk : pa14, af0, pulldown
+    boot0 : pb8, af0, floating
